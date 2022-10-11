@@ -16,7 +16,8 @@ int main(void)
     year2 = calcYear(year1);
 
     printf("Someone born in %d will be %d in %d.", year1, TARGET_AGE, year2);
-
+    printf("\n");
+    system("PAUSE");
     return 0;
 }
 
